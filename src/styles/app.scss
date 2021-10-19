@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import './player';
+@import './song';
+@import './library';
+@import './nav';
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f2f285;
+}
+
+h2, h3 {
+    color: rgb(48, 48, 48);
+}
+
+.App {
+    transition: all 0.5s ease;
+  }
+  .library-active {
+    margin-left: 20%;
+  }

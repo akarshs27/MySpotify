@@ -1,0 +1,38 @@
+nav {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    h2 {
+        padding-left: 3rem;
+    }
+
+    button {
+        outline: none;
+        border: 2px solid rgb(114, 114, 114);
+        padding: 0.5rem 0.7rem;
+        cursor: pointer;
+        background-color: white;
+        &:hover {
+            background-color: rgb(114, 114, 114);
+            color: white;
+        }
+        .library-active {
+            background: rgb(65, 65, 65);
+            color: white;
+        }
+ 
+        .lib-icon {
+            margin-left: 0.3rem;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+      button {
+        z-index: 10;
+      }
+    }
+  }
